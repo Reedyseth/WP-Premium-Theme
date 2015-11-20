@@ -1,0 +1,137 @@
+#navmenu-h ul, #navmenu-h ul li, #navmenu-h ul ul{ margin: 0; padding: 0; border: 0 none;list-style: none;}
+#navmenu-h ul { width: 1152px; margin:0px auto; padding:10px 0; }
+
+#navmenu-h ul ul ul { margin-top:-1px;}
+#navmenu-h ul ul:after /*From IE 7 lack of compliance*/ {
+	clear: both; display: block; font: 1px/0px "bebas_neueregular",serif; content: "."; height: 0; visibility: hidden; }
+
+#navmenu-h ul {
+	height: 25px;
+	font-family: "bebas_neueregular","Roboto" !important;
+}
+
+#navmenu-h ul li a {
+	font-family: "bebas_neueregular","Roboto" !important;
+	font-weight: lighter !important;
+	font-size: 1.6em !important;
+}
+
+#navmenu-h ul li {
+	height:25px;
+	float: left;
+	display: inline;
+	position: relative;
+}
+#navmenu-h ul ul {
+	width: 160px;
+	top: 26px;
+	left: 0;
+	display: none;
+	position: absolute;
+}
+#navmenu-h ul ul li {
+	width: 160px;
+	float: left;
+	display: block !important;
+	display: inline;
+}
+/* Root Menu */
+#navmenu-h ul li a, ul#navmenu-v li a {
+	border-left: none;
+	padding: 0 10px;
+	float: none !important;
+	float: left;
+	display: block;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	height: auto !important;
+	height: 1%;
+	line-height:26px;
+}
+/* 2nd Menu */
+#navmenu-h ul li:hover li a, ul#navmenu-v li:hover li a,
+#navmenu-h ul li.iehover li a, ul#navmenu-v li.iehover li a {
+	float: none;
+	_border-top:none;
+}
+#navmenu-h ul ul ul,
+#navmenu-h ul ul ul ul,
+#navmenu-h ul ul ul ul ul {
+	display: none;
+	position: absolute;
+	top: 1px;
+	left: 159px;
+}
+
+
+/* NO EDIT PAST THIS LINE - Do Not Move - Must Come Before display:block for Gecko */
+
+#navmenu-h ul li:hover ul ul, ul#navmenu-v li:hover ul ul,
+#navmenu-h ul li:hover ul ul ul, ul#navmenu-v li:hover ul ul ul,
+#navmenu-h ul li:hover ul ul ul ul, ul#navmenu-v li:hover ul ul ul ul,
+#navmenu-h ul li.iehover ul ul, ul#navmenu-v li.iehover ul ul,
+#navmenu-h ul li.iehover ul ul ul, ul#navmenu-v li.iehover ul ul ul,
+#navmenu-h ul li.iehover ul ul ul ul, ul#navmenu-v li.iehover ul ul ul ul {
+	display: none;
+}
+#navmenu-h ul li:hover ul, ul#navmenu-v li:hover ul,
+#navmenu-h ul ul li:hover ul, ul#navmenu-v ul li:hover ul,
+#navmenu-h ul ul ul li:hover ul, ul#navmenu-v ul ul li:hover ul,
+#navmenu-h ul ul ul ul li:hover ul, ul#navmenu-v ul ul ul li:hover ul,
+#navmenu-h ul li.iehover ul, ul#navmenu-v li.iehover ul,
+#navmenu-h ul ul li.iehover ul, ul#navmenu-v ul li.iehover ul,
+#navmenu-h ul ul ul li.iehover ul, ul#navmenu-v ul ul li.iehover ul,
+#navmenu-h ul ul ul ul li.iehover ul, ul#navmenu-v ul ul ul li.iehover ul {
+	display: block;
+}
+/* #end -------------- */
+
+/*
+VERTICAL and HORIZONTAL dropmenu settings
+*/
+
+ul#navmenu-v, #sidebar ul#navmenu-v,
+ul#navmenu-v li, #sidebar ul#navmenu-v li,
+ul#navmenu-v ul, #sidebar ul#navmenu-v ul {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: 180px; /*For KHTML*/
+  list-style: none;
+}
+ul#navmenu-v:after /*From IE 7 lack of compliance*/{
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+ul#navmenu-v li {
+  float: left; /*For IE 7 lack of compliance*/
+  display: block !important; /*For GOOD browsers*/
+  display: inline; /*For IE*/
+  position: relative;
+}
+ul#navmenu-v ul,
+ul#navmenu-v ul ul,
+ul#navmenu-v ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  right:180px;
+ /*If you wish to use vertical dropmenu on left sidebar, simply change the value right to left here. e.g. = left:180px;*/
+}
+#r_sidebar h3.vmenuspcaer { padding-top:18px;  }
+
+
+#navmenu-v li {  float:left; list-style-type:none; margin:10px -4px 10px 4px; padding:0px; background:none;  }
+#navmenu-v li:hover a, #navmenu-v li.hover a, #navmenu-v li.current_page_item a { text-decoration:none;  }
+#nav ul li.current_page_item a:hover { text-decoration:none; }
+
+#navmenu-h ul li a { font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; text-decoration:none; padding:0px 24px 0px 0px; margin:0px 0px 0px 15px;  _margin:0px 0px 0px 5px; text-transform:uppercase; }
+#nav ul li a:hover { text-decoration:none; }
+
+#navmenu-h ul li ul li a { margin:0; padding-left:10px }
+#navmenu-h ul li ul li ul li {height:26px;  }
+#navmenu-h ul li {height:26px;  }
