@@ -60,7 +60,7 @@
 	<!-- End Google AdSense -->
 <?php
 
-$related = get_posts( array( 'category__in' => wp_get_post_categories($post->ID), 'numberposts' => 5, 'post__not_in' => array($post->ID) ) );
+$related = get_posts( array( 'category__in' => wp_get_post_categories($post->ID), 'numberposts' => 4, 'post__not_in' => array($post->ID) ) );
 if( $related ){
  echo "<h3>Related Posts</h3>";
  echo "<ul class='relatedpost'>";
