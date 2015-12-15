@@ -19,9 +19,9 @@ Description:WP Premium theme by Templatic and Edited by Reedyseth.
 @import url("fonts/archivonarrow-regular.css");
 
 body { font:14px 'Roboto','archivo_narrowregular','Open Sans';
-	   margin:0px 0px 0px 0px;
-	   letter-spacing: 0.6px;
-	   }
+	margin:0px 0px 0px 0px;
+	letter-spacing: 0.6px;
+}
 body * { margin:0px; padding:0px; }
 
 hr { height:5px; margin:10px 0px; border:none; }
@@ -39,9 +39,9 @@ blockquote p { margin:0px 0px 10px 0px; padding:0px; }
 	height: 100%;
 	padding: 10px;
 	-webkit-border-radius: 10px;
-		border-radius: 10px;
+	border-radius: 10px;
 	-webkit-box-shadow: 2px 2px 15px 0px #B1B4A7;
-		box-shadow: 2px 2px 15px 0px #B1B4A7;
+	box-shadow: 2px 2px 15px 0px #B1B4A7;
 }
 
 img.alignright {float:right; margin:0 0 1em 1em}
@@ -203,7 +203,7 @@ RSS Feed
 }
 
 .header-banner {
-	width: 350px;
+	width: 550px;
 	height: 190px;
 	float: left;
 	margin-left: 85px;
@@ -295,7 +295,7 @@ Content
 
 
 
- /************************************************
+/************************************************
 *	Comments									*
 ************************************************/
 
@@ -317,7 +317,7 @@ Content
 #commentform p { margin: 5px 0px 5px 0px; height:100%; overflow:hidden; }
 
 #commentform #submit { margin:0; float:left; width:100px; margin-left:120px;   font:bold 14px Arial, Helvetica, sans-serif; color:#fff; cursor:pointer;
-background:#000; border:none; border-right:2px solid #ccc; border-bottom:2px solid #ccc; }
+	background:#000; border:none; border-right:2px solid #ccc; border-bottom:2px solid #ccc; }
 .indicate { color:#C00; font-size:11px; }
 
 .alt { margin: 0px; padding: 10px; }
@@ -356,7 +356,7 @@ background:#000; border:none; border-right:2px solid #ccc; border-bottom:2px sol
 
 
 .gravatar { float:right; border:2px solid #999; margin:0px 0 10px 15px; width:40px; height:40px; background:url(images/gravtar.png) no-repeat; } .commetmainauthor { background:#eee; overflow:hidden; height:100%;
-margin-bottom:15px; border-bottom:1px solid #ccc; }
+																																					 margin-bottom:15px; border-bottom:1px solid #ccc; }
 .commetmain { background:#f8f8f8; border-bottom:1px solid #ccc; overflow:hidden; height:100%; margin-bottom:15px; }
 
 #content .post-meta-top { margin:0px 0px 15px 0px; padding:5px 0px; overflow:hidden;  height:100%; }
@@ -514,17 +514,17 @@ ul#nav-footer li a { text-decoration:none; }
 .footer_left { width:500px; float:left; }
 
 #footer .designby {
-float:left;
-padding:10px 8px 0 0;
-display:block;
+	float:left;
+	padding:10px 8px 0 0;
+	display:block;
 }
 
 #footer p span.templatic a { background:transparent url(images/templatic.png) no-repeat scroll left 5px;
-display:block;
-height:30px;
-float:right;
-padding-left:110px;
-text-indent:-9009px;}
+	display:block;
+	height:30px;
+	float:right;
+	padding-left:110px;
+	text-indent:-9009px;}
 
 #footer .footer_right { float:right; margin-right:-30px;  }
 
