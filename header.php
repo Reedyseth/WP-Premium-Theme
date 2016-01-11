@@ -158,38 +158,21 @@
 
 
 
-
-        <!-- <div class="subscribe">
-
+    <!-- <div class="subscribe">
 
 
- 
-	 	<span class="rss">
+
+
+    <span class="rss">
 
         <a href="<?php if ( get_option('ptthemes_feedburner_url') <> "" ) { echo get_option('ptthemes_feedburner_url'); } else { echo get_bloginfo_rss('rss2_url'); } ?>" rel="alternate" type="application/rss+xml">
 
         <img src="<?php bloginfo('template_url'); ?>/images/rss.gif" alt="" /></a></span>
 
+     <div class="subscribeform">
 
-
-    
-
-		 <div class="subscribeform">
-
-		  <p>Subscribe via Email </p>
-
-
-
-
-
-
-
+      <p>Subscribe via Email </p>
             <form  action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow"  onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=<?php echo stripslashes(get_option('ptthemes_feedburner_id'));  ?>', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-
-
-
-
-
      <input type="text" class="textfield"   onFocus="if (this.value == 'Your Email Address') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Your Email Address';}" name="email"/>
 
       <input type="hidden" value="<?php echo stripslashes(get_option('ptthemes_feedburner_id'));  ?>" name="uri"/><input type="hidden" name="loc" value="en_US"/>
@@ -200,11 +183,7 @@
 
       </form>
 
-
-
-
-
-  		 </div>
+       </div>
 
 
     -->
