@@ -196,11 +196,11 @@
     <?php
         $imgr = rand(1,3);
         $websharks = array(
-            1 => array("ZenCache","http://affiliates.websharks-inc.com/3944-9-3-26.html", "ZenCache Holiday Sale" ),
-            2 => array("s2Member","http://affiliates.websharks-inc.com/3944-3-3-25.html", "s2Member Holiday Sale" ),
-            3 => array("Comment Mail","http://affiliates.websharks-inc.com/3944-10-3-27.html", "Comment Mail Holiday Sale" )
+            1 => array("ZenCache","http://affiliates.websharks-inc.com/3944-3-3-25.html", "s2Member The best Membership plugin for WordPress" ),
+            2 => array("s2Member","http://affiliates.websharks-inc.com/3944-9-3-26.html", "ZenCache - A Caching plugin for WordPresss" ),
+            3 => array("Comment Mail","http://affiliates.websharks-inc.com/3944-10-3-27.html", "Comment Mail - Manage your subscriptions like a PRO." )
         );
-        echo '<a href="'.$websharks[$imgr][1].'" target="_blank"><img src="http://behstant.com/blog/wp-content/uploads/2015/12/0'.$imgr.'.png" width="550" height="190" alt="'.$websharks[$imgr][2].'"/></a>';
+        echo '<a href="'.$websharks[$imgr][1].'" target="_blank"><img src="http://behstant.com/blog/wp-content/uploads/2016/01/0'.$imgr.'.png" width="550" height="190" alt="'.$websharks[$imgr][2].'"/></a>';
     ?>
 
 </div>
