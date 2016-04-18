@@ -1,8 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
+<html lang="en">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head profile="http://gmpg.org/xfn/11">
+<head>
 
     <title>
 
@@ -56,9 +55,9 @@
 
     <!-- My Styles -->
 
-    <link rel="stylesheet" type="text/css" href="http://behstant.com/includes/css/estilos.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="https://behstant.com/includes/css/estilos.css" media="screen" />
 
-    <link rel="stylesheet" type="text/css" href="http://behstant.com/includes/css/jquery-ui-1.8.19.custom.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="https://behstant.com/includes/css/jquery-ui-1.8.19.custom.css" media="screen" />
 
     <!-- End My Styles -->
 
@@ -191,7 +190,7 @@
             2 => array("s2Member","http://affiliates.websharks-inc.com/3944-9-3-26.html", "ZenCache - A Caching plugin for WordPresss" ),
             3 => array("Comment Mail","http://affiliates.websharks-inc.com/3944-10-3-27.html", "Comment Mail - Manage your subscriptions like a PRO." )
         );
-        echo '<a href="'.$websharks[$imgr][1].'" target="_blank"><img src="http://behstant.com/blog/wp-content/uploads/2016/01/0'.$imgr.'.png" width="550" height="190" alt="'.$websharks[$imgr][2].'"/></a>';
+        echo '<a href="'.$websharks[$imgr][1].'" target="_blank"><img src="https://behstant.com/blog/wp-content/uploads/2016/01/0'.$imgr.'.png" width="550" height="190" alt="'.$websharks[$imgr][2].'"/></a>';
         */
     ?>
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

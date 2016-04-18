@@ -101,7 +101,7 @@ function ptthemes_meta_box_content() {
 function ptthemes_metabox_insert() {
     global $pt_metaboxes;
     global $globals;
-    $pID = $_POST['post_ID'];
+    $pID = array_key_exists("post_ID", $_POST) ? $_POST['post_ID'] : "";
     $counter = 0;
 
 
