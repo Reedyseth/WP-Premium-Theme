@@ -5,7 +5,7 @@
 <div id="footer">
   <div id="footer-wrap">
 
-    <div class="footer_left"> <span  class="copyright" >&copy; <?php the_time('Y'); ?> <?php bloginfo('name'); ?> All rights reserved.  </span>
+    <div class="footer_left"> <span  class="copyright" >&copy; 2008-<?php echo date('Y'); ?> <?php bloginfo('name'); ?> All rights reserved.  </span>
 
      <?php if ( get_option('ptthemes_footerpages') <> "" ) { ?>
 			<ul id="nav-footer">

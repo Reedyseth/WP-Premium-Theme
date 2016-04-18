@@ -203,13 +203,13 @@ RSS Feed
 }
 
 .header-banner {
-	width: 550px;
-	height: 190px;
+	width: 728px;
+	height: 90px;
 	float: left;
 	margin-left: 85px;
 	position: absolute;
-	right: 102px;
-	top: 9px;
+	right: 61px;
+	top: 35px;
 }
 
 /*************************************
@@ -526,7 +526,7 @@ ul#nav-footer li a { text-decoration:none; }
 	padding-left:110px;
 	text-indent:-9009px;}
 
-#footer .footer_right { float:right; margin-right:-30px;  }
+#footer .footer_right { float:right; margin-right:105px;  }
 
 /*  Tabber  Style start -------------------- */
 .tabberlive .tabbertabhide { display:none; }

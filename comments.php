@@ -97,6 +97,7 @@
     <textarea name="comment" id="comment" cols="60" rows="10" tabindex="4" class="textarea"></textarea>
   </p>
   <p>
+    <?php // global $wp_subscribe_reloaded; if (isset($wp_subscribe_reloaded)){ $wp_subscribe_reloaded->stcr->subscribe_reloaded_show(); } ?>
     <input name="submit" id="submit" type="submit" tabindex="5" value="<?php _e('Submit'); ?>" class="Cbutton" />
     <input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
     <input type="hidden" name="redirect_to" value="<?php echo esc_html($_SERVER['REQUEST_URI']); ?>" />

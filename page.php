@@ -11,7 +11,7 @@
 	<?php the_content('<p class="serif">Read the rest of this page &raquo;</p>'); ?>
 
 	<!--if you paginate pages-->
-	<?php link_pages('<p><strong>Pages:</strong> ', '</p>', 'number'); ?>
+	<?php wp_link_pages('<p><strong>Pages:</strong> ', '</p>', 'number'); ?>
 	
 	<!--end of post and end of loop-->
 	<?php endwhile; endif; ?>

@@ -153,15 +153,7 @@
 
         </div>
 
-
-
-
-
-
     <!-- <div class="subscribe">
-
-
-
 
     <span class="rss">
 
@@ -179,8 +171,6 @@
 
        <input type="image" value="" src="<?php bloginfo('template_url'); ?>/images/blank.png" class="sbutton" />
 
-
-
       </form>
 
        </div>
@@ -191,9 +181,10 @@
 
 </div>
 
-<div class="header-banner outline">
+<div class="header-banner">
 <!--    <script src="https://www.gstatic.com/xads/publisher_badge/contributor_badge.js" data-width="350" data-height="190" data-theme="light" data-pub-name="The Code" data-pub-id="ca-pub-4673344568091096"></script>-->
     <?php
+        /*
         $imgr = rand(1,3);
         $websharks = array(
             1 => array("ZenCache","http://affiliates.websharks-inc.com/3944-3-3-25.html", "s2Member The best Membership plugin for WordPress" ),
@@ -201,8 +192,17 @@
             3 => array("Comment Mail","http://affiliates.websharks-inc.com/3944-10-3-27.html", "Comment Mail - Manage your subscriptions like a PRO." )
         );
         echo '<a href="'.$websharks[$imgr][1].'" target="_blank"><img src="http://behstant.com/blog/wp-content/uploads/2016/01/0'.$imgr.'.png" width="550" height="190" alt="'.$websharks[$imgr][2].'"/></a>';
+        */
     ?>
-
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Leader_Header_Behstant -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:728px;height:90px"
+         data-ad-client="ca-pub-4673344568091096"
+         data-ad-slot="5945116368"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 </div>
 </div>
 
