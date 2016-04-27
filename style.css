@@ -19,15 +19,15 @@ Description:WP Premium theme by Templatic and Edited by Reedyseth.
 @import url("fonts/archivonarrow-regular.css");
 
 body { font:14px 'Roboto','archivo_narrowregular','Open Sans';
-	margin:0px 0px 0px 0px;
+	margin:0 0 0 0;
 	letter-spacing: 0.6px;
 }
-body * { margin:0px; padding:0px; }
+body * { margin:0; padding:0; }
 
-hr { height:5px; margin:10px 0px; border:none; }
+hr { height:5px; margin:10px 0; border:none; }
 
-blockquote { margin:0px 0px 0px 5px; padding:8px 25px 5px 40px; font-size:15px; font-style:italic; font-family:Georgia, Times New Roman, Serif; }
-blockquote p { margin:0px 0px 10px 0px; padding:0px; }
+blockquote { margin:0 0 0 5px; padding:8px 25px 5px 40px; font-size:15px; font-style:italic; font-family:Georgia, Times New Roman, Serif; }
+blockquote p { margin:0 0 10px 0; padding:0; }
 
 .quote {
 	background-color: #DBDBDB;
@@ -40,8 +40,8 @@ blockquote p { margin:0px 0px 10px 0px; padding:0px; }
 	padding: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
-	-webkit-box-shadow: 2px 2px 15px 0px #B1B4A7;
-	box-shadow: 2px 2px 15px 0px #B1B4A7;
+	-webkit-box-shadow: 2px 2px 15px 0 #B1B4A7;
+	box-shadow: 2px 2px 15px 0 #B1B4A7;
 }
 
 img.alignright {float:right; margin:0 0 1em 1em}
@@ -64,6 +64,32 @@ code { font-size:13px; }
 
 .button-cart {top:5px; right:0; height:26px; margin: 20px !important;border-width: 2px !important;background-color: #DDEDDB;border-color: #7CD612 !important; }
 
+/* table - information-table*/
+
+table.information-table, .information-table th, .information-table td {
+	border: 1px #555 solid;
+	border-collapse: collapse;
+	padding: 5px;
+	font-size: 15px;
+}
+
+table.information-table thead th {
+	background-color: #87C081;
+	color: #FFF;
+	text-shadow: 2px 0 2px rgba(150, 150, 150, 1);
+}
+
+table.information-table tbody td
+{
+	background-color: #444444;
+	color: #FFF;
+}
+
+
+table.information-table tbody td:first-child {
+	text-align: center;
+}
+
 .relatedpost li {
 	/*border: 8px solid #333;*/
 	width: 161px;
@@ -71,7 +97,7 @@ code { font-size:13px; }
 	float: left;
 	list-style: none !important;
 	margin: 5px 5px !important;
-	padding: 0px 0px !important;
+	padding: 0 0 !important;
 }
 
 .relatedpost li img{
@@ -89,7 +115,7 @@ code { font-size:13px; }
 .relatedpost li p {
 	font-size: 15px;
 	text-align: justify;
-	margin: 0px 8px !important;
+	margin: 0 8px !important;
 }
 
 .relatedpost li p.relatedtags {
@@ -122,20 +148,20 @@ Structure
 -------------------------------------------------- */
 
 #header {  overflow:hidden; height:100%; }
-#header-in { width: 1152px; padding:0px; height:95px; position:relative; margin:0px auto; }
+#header-in { width: 1152px; padding:0; height:95px; position:relative; margin:0 auto; }
 
-#container { width:940px; text-align:left; margin:0 auto; padding:0px 10px; border:0px solid black; clear:both; overflow:hidden; height:100%;  }
+#container { width:940px; text-align:left; margin:0 auto; padding:0 10px; border:0 solid black; clear:both; overflow:hidden; height:100%;  }
 .container-top { clear:both; height:17px; width:960px; display:block; margin:12px auto 0 auto; }
-.container-bottom { clear:both; height:17px; width:960px; display:block; margin:0px auto;  }
+.container-bottom { clear:both; height:17px; width:960px; display:block; margin:0 auto;  }
 
 #content { width: 760px; float:left; padding:14px 15px 20px 22px; display:block; overflow:hidden; }
-#sidebar { float:right; width:310px; padding:0px 3px 0px 0px; min-height:500px; }
+#sidebar { float:right; width:310px; padding:0 3px 0 0; min-height:500px; }
 #l_sidebar, #r_sidebar { width:auto;}
 #l_sidebar { float:left; }
 #r_sidebar { float:right;  }
 
-#footer { padding:10px 0px 20px 0px; text-align:center; height:25px; clear:both; font-size:11px; }
-#footer-wrap { width: 1085px; margin:0px auto; }
+#footer { padding:10px 0 20px 0; text-align:center; height:25px; clear:both; font-size:11px; }
+#footer-wrap { width: 1085px; margin:0 auto; }
 
 /*************************************
 Links
@@ -146,16 +172,16 @@ a:hover { text-decoration:underline; }
 /*************************************
 Headings
 **************************************/
-h1 { font-size:26px; font-weight:normal; font-family: "bebas_neueregular", Times, serif; margin:0px; padding:0px; }
+h1 { font-size:26px; font-weight:normal; font-family: "bebas_neueregular", Times, serif; margin:0; padding:0; }
 h3.h1 {  /*make homepage h3's for the first 2 stories look like H1 */ font-size:35px; text-decoration:none; }
 h1 a, h3 a, h1 a:visited, h3 a:visited { text-decoration:none; }
 h1 a:hover, h3 a:hover { text-decoration:none; }
-h2 { font-size:24px; font-family: "bebas_neueregular", Times, serif; font-weight:normal; padding:10px 0px; line-height:150%; margin:0px; }
+h2 { font-size:24px; font-family: "bebas_neueregular", Times, serif; font-weight:normal; padding:10px 0; line-height:150%; margin:0; }
 h2 a, h2 a:visited { color:#666; text-decoration:underline; }
 h2 a:hover { text-decoration:none; }
 h3 { font-size:22px; font-weight:normal; font-family: "bebas_neueregular", Times, serif; }
 
-#sidebar h2 { margin:0px 0 5px 0; padding:0 0 5px 0; font:bold 14px "bebas_neueregular",Arial, Helvetica, sans-serif;  }
+#sidebar h2 { margin:0 0 5px 0; padding:0 0 5px 0; font:bold 14px "bebas_neueregular",Arial, Helvetica, sans-serif;  }
 #sidebar .popular h2 { font:bold 14px "bebas_neueregular",Arial, Helvetica, sans-serif; }
 #sidebar h2.i_twitter {  padding:7px 0 7px 35px;   }
 
@@ -170,24 +196,24 @@ h3 a, h3 a:visited { text-decoration:none; }
 
 h4 { font-size:18px; font-weight:normal; font-family:"bebas_neueregular",Georgia, "Times New Roman", Times, serif; }
 h5 { font-size:16px; font-weight:bold; font-family:"bebas_neueregular",Georgia, "Times New Roman", Times, serif; }
-h6 { font-size:14px; font-family:"bebas_neueregular",Georgia, "Times New Roman", Times, serif; font-weight:bold; padding:0px 0 10px 0px; line-height:150%; margin:0px; }
+h6 { font-size:14px; font-family:"bebas_neueregular",Georgia, "Times New Roman", Times, serif; font-weight:bold; padding:0 0 10px 0; line-height:150%; margin:0; }
 
 #sidebar h2 span {  font-size:12px; position:absolute; right:10px; font-weight:bold; }
 
 /*************************************
 Header
 **************************************/
-#header-in .title { margin:0px; padding:25px 10px 5px 10px; width:590px; float:left; }
-#header-in .title a { text-decoration:none; font-family:Georgia, "Times New Roman", Times, serif; font-size:33px; font-weight:normal; margin:0px; padding:0px; }
+#header-in .title { margin:0; padding:25px 10px 5px 10px; width:590px; float:left; }
+#header-in .title a { text-decoration:none; font-family:Georgia, "Times New Roman", Times, serif; font-size:33px; font-weight:normal; margin:0; padding:0; }
 
-#header-in .description { clear:both; font-family:Arial, Helvetica, Sans-Serif; font-size:12px; font-weight:bold; margin:0px; padding:0px 10px 4px 5px; width:850px; }
+#header-in .description { clear:both; font-family:Arial, Helvetica, Sans-Serif; font-size:12px; font-weight:bold; margin:0; padding:0 10px 4px 5px; width:850px; }
 
 #header-in img {  border:none; }
 
 /*************************************
 Subscribe form
 **************************************/
-.subscribe { width:298px; height:60px; float:right; position:absolute; top:0px; right:0px; }
+.subscribe { width:298px; height:60px; float:right; position:absolute; top:0; right:0; }
 .subscribeform { float:right; padding:5px 0 0 18px; overflow:hidden; width:215px; position:relative;}
 .subscribeform p { margin:0; padding:0; font:bold 14px Arial, Helvetica, sans-serif; color:#fff; }
 .subscribeform .textfield { width:165px; height:18px;  padding:2px 5px 0 5px; font:12px Arial, Helvetica, sans-serif; margin-top:10px; margin-bottom:8px; border:none; background:none; }
@@ -196,7 +222,7 @@ Subscribe form
 /*************************************
 RSS Feed
 **************************************/
-.rss { float:left; padding:8px 0 0 19px;  margin:0px; }
+.rss { float:left; padding:8px 0 0 19px;  margin:0; }
 
 .outline {
 	border: 1px white solid;
@@ -232,7 +258,7 @@ html>body #xsnazzy  {  margin:0 0 10px 0; }
 
 
 /*Search box Rounded Corner End */
-ul.tablist {  margin:5px 0px; padding:0; list-style:none; color:#333; }
+ul.tablist {  margin:5px 0; padding:0; list-style:none; color:#333; }
 ul.tablist li { margin:0 5px; padding:2px 0 3px 10px;  list-style:none; border-bottom:1px dotted #959595; text-align:left; }
 ul.tablist li a { text-decoration:none; line-height:18px; }ul.tablist li a:hover { text-decoration:underline; }
 
@@ -260,13 +286,13 @@ Content
 
 
 #content h1.btmspace { margin-bottom:15px; }
-#content p { margin:0px; line-height:22px; padding:0px 0px 10px 0px; }
+#content p { margin:0; line-height:22px; padding:0 0 10px 0; }
 
-#content ol { list-style-type:decimal; line-height:18px; margin:0px; padding:0px 0px 10px 35px; }
+#content ol { list-style-type:decimal; line-height:18px; margin:0; padding:0 0 10px 35px; }
 
-#content ul { list-style:none; margin:0px; padding:0px 0px 10px 0px; }
-#content li { margin:0px; padding:0px; }
-#content ul li { list-style:disc outside; margin:0px 30px 0px 30px; padding:5px 0px 0px 0; }
+#content ul { list-style:none; margin:0; padding:0 0 10px 0; }
+#content li { margin:0; padding:0; }
+#content ul li { list-style:disc outside; margin:0 30px 0 30px; padding:5px 0 0 0; }
 
 
 #content .social { margin:0 0 0 -10px; padding:0; list-style:none; font-size:12px;  }
@@ -301,29 +327,29 @@ Content
 
 #content .commentlist img.avatar  { width:40px; height:40px; background: #FFFFFF; float: right; background:#fff url(images/gravtar.png) no-repeat center; border: 1px solid #EEEEEE; padding:5px; margin-left:10px; }
 
-#commentform input { width: 270px; padding: 7px 10px; margin: 0px 5px 1px 0px; border:1px solid #ccc; border-right:2px solid #ccc; border-bottom:2px solid #ccc; font:13px Arial, Helvetica, sans-serif; }
+#commentform input { width: 270px; padding: 7px 10px; margin: 0 5px 1px 0; border:1px solid #ccc; border-right:2px solid #ccc; border-bottom:2px solid #ccc; font:13px Arial, Helvetica, sans-serif; }
 #commentform textarea { width:405px; padding: 8px; border:1px solid #ccc; border-right:2px solid #ccc; border-bottom:2px solid #ccc; font:13px Arial, Helvetica, sans-serif;  }
 
 
-#commentform { margin: 5px 10px 0px 0px; height:100%; overflow:hidden; }
+#commentform { margin: 5px 10px 0 0; height:100%; overflow:hidden; }
 
 #commentform label { font-weight:bold; float:left; width:122px; padding-top:5px; }
 .cancel-comment-reply  a { font-size:12px; }
 
 
-#respond:after { content: "."; display: block; height:0px; clear: both; visibility: hidden; }
+#respond:after { content: "."; display: block; height:0; clear: both; visibility: hidden; }
 #content .commentlist p { font-weight: normal; text-transform: none; }
 #content .commentmetadata { font-weight: normal; font-size:11px; }
-#commentform p { margin: 5px 0px 5px 0px; height:100%; overflow:hidden; }
+#commentform p { margin: 5px 0 5px 0; height:100%; overflow:hidden; }
 
 #commentform #submit { margin:0; float:left; width:100px; margin-left:120px;   font:bold 14px Arial, Helvetica, sans-serif; color:#fff; cursor:pointer;
 	background:#000; border:none; border-right:2px solid #ccc; border-bottom:2px solid #ccc; }
 .indicate { color:#C00; font-size:11px; }
 
-.alt { margin: 0px; padding: 10px; }
-#content .commentlist { margin: 10px 0 20px 0; padding: 0px; height:100%; overflow:hidden; }
-#content .commentlist ol { margin: 0px; padding: 10px; }
-#content .commentlist li { margin: 0px 0px 15px 0; padding: 10px 8px 10px 10px; list-style: none; background:none; }
+.alt { margin: 0; padding: 10px; }
+#content .commentlist { margin: 10px 0 20px 0; padding: 0; height:100%; overflow:hidden; }
+#content .commentlist ol { margin: 0; padding: 10px; }
+#content .commentlist li { margin: 0 0 15px 0; padding: 10px 8px 10px 10px; list-style: none; background:none; }
 #content .commentlist li ul li {  margin-right:5px; }
 
 #content .commentlist cite { font-size:12px; font-weight:bold; font-style:normal;  }
@@ -337,34 +363,34 @@ Content
 #content .commentlist li .reply { font-size:12px; }
 
 
-.commentlist p { margin: 10px 5px 10px 0px; padding: 0px; }
-.children {  margin:0px; padding:0px; }
-.nocomments { text-align: center; margin:0px; padding:0px; }
+.commentlist p { margin: 10px 5px 10px 0; padding: 0; }
+.children {  margin:0; padding:0; }
+.nocomments { text-align: center; margin:0; padding:0; }
 
-.commentmetadata { font-size: 11px; margin: 0px; display: block; }
+.commentmetadata { font-size: 11px; margin: 0; display: block; }
 .navigation { display: block; text-align: center; margin-top:10px; margin-bottom:10px; }
 
 .alignright { float: right; }
 .alignleft { float: left; }
-.thread-alt { background:#eee; margin: 0px; padding: 0px; }
+.thread-alt { background:#eee; margin: 0; padding: 0; }
 .thread-even { background:#fff; }
 
 .depth-1 { border: 1px dotted #bbb; }
 .even { border:1px dotted #bbb; background:#eee !important;  }
-.alt { border:1px dotted #bbb; background:#fff !important; margin:0px; padding:0px; }
+.alt { border:1px dotted #bbb; background:#fff !important; margin:0; padding:0; }
 
 
 
-.gravatar { float:right; border:2px solid #999; margin:0px 0 10px 15px; width:40px; height:40px; background:url(images/gravtar.png) no-repeat; } .commetmainauthor { background:#eee; overflow:hidden; height:100%;
+.gravatar { float:right; border:2px solid #999; margin:0 0 10px 15px; width:40px; height:40px; background:url(images/gravtar.png) no-repeat; } .commetmainauthor { background:#eee; overflow:hidden; height:100%;
 																																					 margin-bottom:15px; border-bottom:1px solid #ccc; }
 .commetmain { background:#f8f8f8; border-bottom:1px solid #ccc; overflow:hidden; height:100%; margin-bottom:15px; }
 
-#content .post-meta-top { margin:0px 0px 15px 0px; padding:5px 0px; overflow:hidden;  height:100%; }
+#content .post-meta-top { margin:0 0 15px 0; padding:5px 0; overflow:hidden;  height:100%; }
 #content .post-meta-top a { text-decoration:none; }
-#content .post-bottom {  margin:0px 0px 40px 0px; padding:8px 0; clear:both; overflow:hidden;  height:100%; font-size:11px;  }
+#content .post-bottom {  margin:0 0 40px 0; padding:8px 0; clear:both; overflow:hidden;  height:100%; font-size:11px;  }
 #content .post-bottom a { text-decoration:none; }
 
-.cat { float:left; width:25%; text-align:left; padding:0px 0px 0px 15px; }
+.cat { float:left; width:25%; text-align:left; padding:0 0 0 15px; }
 
 .comm { float:right; width:38px; height:39px; font-size:22px; line-height:27px; text-align:center; }
 .comm span { text-align:center; padding:5px 0 0 0; }
@@ -372,21 +398,21 @@ Content
 
 a.CSSclass {}
 
-.date { float:left; text-align:left; font-size:11px; padding:1px 0px 0 15px; background:url(images/i_calendar.png) no-repeat 0 0px; color:#777; text-transform:uppercase; }
+.date { float:left; text-align:left; font-size:11px; padding:1px 0 0 15px; background:url(images/i_calendar.png) no-repeat 0 0; color:#777; text-transform:uppercase; }
 
-#content p.tags { font-size:12px; padding:1px 0px 7px 15px; background:url(images/i_tag.png) no-repeat 0 7px; color:#777; }
+#content p.tags { font-size:12px; padding:1px 0 7px 15px; background:url(images/i_tag.png) no-repeat 0 7px; color:#777; }
 
-#content .search404 { margin:4px 8px 0 0; padding:5px 0 0 0px; width:298px; }
+#content .search404 { margin:4px 8px 0 0; padding:5px 0 0 0; width:298px; }
 #content .category { float:left; width:48%; border-right:1px solid #ccc; }
 #content .archives { float:right; width:48%; }
 
 
 /* Previous/Next Page Navigation *********************************************/
 
-.page-nav { clear:both; margin:15px 0px; padding:2px 0px; height:22px; font-weight:bold; font-size:15px; }
+.page-nav { clear:both; margin:15px 0; padding:2px 0; height:22px; font-weight:bold; font-size:15px; }
 
-.nav-previous { width:249px; float:left; text-align:left; margin:2px 0px; }
-.nav-next { width:249px; float:right; text-align:right; margin:2px 0px; }
+.nav-previous { width:249px; float:left; text-align:left; margin:2px 0; }
+.nav-next { width:249px; float:right; text-align:right; margin:2px 0; }
 
 .page-nav a { text-decoration:none; }
 .nav-previous a { padding-left:13px; }
@@ -408,14 +434,14 @@ Sidebar
 #sidebar ul { list-style-type:none; }
 #sidebar .advertise { text-align:left; padding:0; margin-left:3px; margin-bottom:8px; }
 #sidebar .advertise img { margin:5px 5px; border:none; }
-#sidebarwrap { padding:15px 0px 0px 0px; margin:0px; border:none; }
+#sidebarwrap { padding:15px 0 0 0; margin:0; border:none; }
 
 #sidebar .aktt_tweets p { display:none; }
 
 /*************************************
 Popular Posts Section
 **************************************/
-#sidebar #sidebarwrap #popular {  margin:0px; padding:0px;}
+#sidebar #sidebarwrap #popular {  margin:0; padding:0;}
 
 /*popular box Rounded Corner start */
 #pxsnazzy { margin:0 0 10px 0; }
@@ -429,11 +455,11 @@ Popular Posts Section
 .pxboxcontent { display:block; padding:2px; }
 
 /*popular box Rounded Corner End */
-.popular ul { margin:0px; padding:0px 10px 15px 10px; }
-.popular ul li { margin:0px; padding:0px; }
-.popular ul li ul { padding:0px; }
-.popular ul li ul li { margin:0px; padding:5px 10px; font-size:13px; }
-.popular ul li ul li a, #popular ul li ul li a:visited { padding:0; margin:0px; text-decoration:none; }
+.popular ul { margin:0; padding:0 10px 15px 10px; }
+.popular ul li { margin:0; padding:0; }
+.popular ul li ul { padding:0; }
+.popular ul li ul li { margin:0; padding:5px 10px; font-size:13px; }
+.popular ul li ul li a, #popular ul li ul li a:visited { padding:0; margin:0; text-decoration:none; }
 .popular ul li ul li a:hover { text-decoration:underline; }
 
 
@@ -451,7 +477,7 @@ Popular Posts Section
 /*************************************
 Popular Posts Section
 **************************************/
-#sidebar #sidebarwrap #popular {  margin:0px; padding:0px;}
+#sidebar #sidebarwrap #popular {  margin:0; padding:0;}
 
 /*popular box Rounded Corner start */
 #pxsnazzy { margin:0 0 10px 0; }
@@ -477,23 +503,23 @@ Popular Posts Section
 Left Sidebar
 **************************************/
 #l_sidebar li, #r_sidebar li { font-size:13px; }
-#l_sidebar ul, #l_sidebar ul li, #r_sidebar ul, #r_sidebar ul li { margin:0px 0 15px 0; padding:0px;  }
-#l_sidebar ul li ul li, #r_sidebar ul li ul li { margin:0px; padding:5px 3px 7px 8px; }
-#l_sidebar ul li ul li a, #l_sidebar ul li ul li a:visited, #r_sidebar ul li ul li a, #r_sidebar ul li ul li a:visited { margin:0px; text-decoration:none; }
+#l_sidebar ul, #l_sidebar ul li, #r_sidebar ul, #r_sidebar ul li { margin:0 0 15px 0; padding:0;  }
+#l_sidebar ul li ul li, #r_sidebar ul li ul li { margin:0; padding:5px 3px 7px 8px; }
+#l_sidebar ul li ul li a, #l_sidebar ul li ul li a:visited, #r_sidebar ul li ul li a, #r_sidebar ul li ul li a:visited { margin:0; text-decoration:none; }
 #l_sidebar ul li ul li a:hover, #r_sidebar ul li ul li a:hover { text-decoration:none; }
-#l_sidebar ul li ul li ul li, #r_sidebar ul li ul li ul li { margin:0px; padding:0px; }
-#l_sidebar ul li ul li ul li a, #l_sidebar ul li ul li ul li a:visited, #r_sidebar ul li ul li ul li a, #r_sidebar ul li ul li ul li a:visited { padding:5px 3px 7px 8px; margin:0px; text-decoration:none; }
-#l_sidebar ul li ul li ul, #r_sidebar ul li ul li ul { border:none; padding:0px; margin:0px; }
+#l_sidebar ul li ul li ul li, #r_sidebar ul li ul li ul li { margin:0; padding:0; }
+#l_sidebar ul li ul li ul li a, #l_sidebar ul li ul li ul li a:visited, #r_sidebar ul li ul li ul li a, #r_sidebar ul li ul li ul li a:visited { padding:5px 3px 7px 8px; margin:0; text-decoration:none; }
+#l_sidebar ul li ul li ul, #r_sidebar ul li ul li ul { border:none; padding:0; margin:0; }
 #l_sidebar ul li ul li ul li a:hover, #r_sidebar ul li ul li ul li a:hover { text-decoration:none; }
 #l_sidebar a {color: #8BC84B; font-weight: bold;}
 
 #l_sidebar a, #r_sidebar a { text-decoration:none; }
 
 .about { overflow:hidden; height:100%; margin-bottom:15px;  }
-#sidebar p { margin:0px; line-height:18px; padding:0px 0px 10px 0px;  }
+#sidebar p { margin:0; line-height:18px; padding:0 0 10px 0;  }
 #sidebar li p { padding:0;  }
 
-#sidebar #txsnazzy p { margin:0; padding:0px 8px 3px 0px; font-size:14px; text-align:right;   }
+#sidebar #txsnazzy p { margin:0; padding:0 8px 3px 0; font-size:14px; text-align:right;   }
 #sidebar #txsnazzy p a { text-decoration:none; }
 
 /*************************************
@@ -508,7 +534,7 @@ Footer
 
 ul#nav-footer { margin:0 0 0 -10px; padding:0; font-size:11px; font-weight:bold; text-align:right; clear:both; text-transform:uppercase; }
 ul#nav-footer li { padding:5px 8px 5px 12px; list-style:none; float:left; }
-ul#nav-footer li.nobg { padding:5px 8px 0px 12px; }
+ul#nav-footer li.nobg { padding:5px 8px 0 12px; }
 ul#nav-footer li a { text-decoration:none; }
 
 .footer_left { width:500px; float:left; }
