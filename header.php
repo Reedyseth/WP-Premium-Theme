@@ -48,16 +48,17 @@
         <?php } ?>
 
     <?php } ?>
-
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
 
 
 
     <!-- My Styles -->
 
-    <link rel="stylesheet" type="text/css" href="https://behstant.com/includes/css/estilos.css" media="screen" />
+    <!-- <link rel="stylesheet" type="text/css" href="https://behstant.com/includes/css/estilos.css" media="screen" /> -->
 
-    <link rel="stylesheet" type="text/css" href="https://behstant.com/includes/css/jquery-ui-1.8.19.custom.css" media="screen" />
+    <!-- <link rel="stylesheet" type="text/css" href="https://behstant.com/includes/css/jquery-ui-1.8.19.custom.css" media="screen" /> -->
 
     <!-- End My Styles -->
 
@@ -102,12 +103,6 @@
         <link href="<?php bloginfo('template_directory'); ?>/custom.css" rel="stylesheet" type="text/css">
 
     <?php } ?>
-
-
-
-
-
-
 
 </head>
 
@@ -223,9 +218,9 @@
 
 </div>
 
-<div class="container-top"></div>
+<div class="clearfix"></div>
 
-<div id="container">
+<div id="container-fluid">
 
     <!--header.php end-->
 

@@ -1,6 +1,5 @@
 </div>
 
-<div class="container-bottom"></div>
 
 <div id="footer">
   <div id="footer-wrap">

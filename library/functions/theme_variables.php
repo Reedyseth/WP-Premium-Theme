@@ -1,5 +1,5 @@
 <?php
-$themename = "WP Premium";
+$themename = "WP Premium edited by Reedyseth";
 $shortname = "ptthemes";
 $template = get_option('template');
 $current_theme = get_option('current_theme');

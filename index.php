@@ -1,9 +1,10 @@
 <?php get_header(); ?>
-
-<div id="content">
+<div class="row">
+<div id="content" class="col-md-8 col-md-offset-1">
 	<?php if (have_posts()) : ?>
 	<?php while (have_posts()) : the_post(); ?>
 
+  <div class="post-wrapper">
 
 	<!--comment count on right-->
 		<div class="comm"><?php comments_popup_link ('0','1','%','CSSclass','0'); ?></div>
@@ -49,6 +50,8 @@
 
 	</div> <!-- post bottom #end -->
 
+  </div>
+
 	<?php endwhile; ?>
 
     <!-- Prev/Next page navigation -->
@@ -82,6 +85,8 @@
 
 <!--include sidebar-->
 <?php get_sidebar(); ?>
+
+</div>
 
 <!--include footer-->
 <?php get_footer(); ?>
