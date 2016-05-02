@@ -1,12 +1,1 @@
-navHover = function() {
-	var lis = document.getElementById("navmenu-h").getElementsByTagName("LI");
-	for (var i=0; i<lis.length; i++) {
-		lis[i].onmouseover=function() {
-			this.className+=" iehover";
-		}
-		lis[i].onmouseout=function() {
-			this.className=this.className.replace(new RegExp(" iehover\\b"), "");
-		}
-	}
-}
-if (window.attachEvent) window.attachEvent("onload", navHover);
+navHover=function(){for(var e=document.getElementById("navmenu-h").getElementsByTagName("LI"),n=0;n<e.length;n++)e[n].onmouseover=function(){this.className+=" iehover"},e[n].onmouseout=function(){this.className=this.className.replace(new RegExp(" iehover\\b"),"")}},window.attachEvent&&window.attachEvent("onload",navHover);
