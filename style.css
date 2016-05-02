@@ -150,24 +150,41 @@ Structure
 #header {  overflow:hidden; height:100%; }
 #header-in { width: 1152px; padding:0; height:95px; position:relative; margin:0 auto; }
 
-#container
-{
-	background-color: #333;
-}
 
-#content { display:block; overflow:hidden; margin-top: 10px }
+
+#content
+{
+	display: block;
+	overflow: hidden;
+	margin: 10px 0 10px 60px;
+	width: 62%;
+}
 
 .post-wrapper
 {
 	background-color: #FFF;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	-webkit-border-radius: 10px;
 	        border-radius: 10px;
-	padding: 10px 15px;
+	padding: 20px 15px;
 }
 
+#container
+{
+	/*margin: 0 auto;*/
+}
 
-#sidebar { float:right; width:310px; padding:0 3px 0 0; min-height:500px; }
+#sidebar
+{
+	padding: 5px 10px;
+	min-height: 500px;
+	background-color: #333;
+	margin-top: 9px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	width: 27%;
+}
+
 #l_sidebar, #r_sidebar { width:auto;}
 #l_sidebar { float:left; }
 #r_sidebar { float:right;  }
@@ -191,7 +208,8 @@ h1 a:hover, h3 a:hover { text-decoration:none; }
 h2 { font-size:24px; font-family: "bebas_neueregular", Times, serif; font-weight:normal; padding:10px 0; line-height:150%; margin:0; }
 h2 a, h2 a:visited { color:#666; text-decoration:underline; }
 h2 a:hover { text-decoration:none; }
-h3 { font-size:22px; font-weight:normal; font-family: "bebas_neueregular", Times, serif; }
+
+.post-title { font-size:35px  !important; font-weight:normal !important; font-family: "bebas_neueregular", Times, serif !important; }
 
 #sidebar h2 { margin:0 0 5px 0; padding:0 0 5px 0; font:bold 14px "bebas_neueregular",Arial, Helvetica, sans-serif;  }
 #sidebar .popular h2 { font:bold 14px "bebas_neueregular",Arial, Helvetica, sans-serif; }
@@ -339,8 +357,9 @@ Content
 
 #content .commentlist img.avatar  { width:40px; height:40px; background: #FFFFFF; float: right; background:#fff url(images/gravtar.png) no-repeat center; border: 1px solid #EEEEEE; padding:5px; margin-left:10px; }
 
-#commentform input { width: 270px; padding: 7px 10px; margin: 0 5px 1px 0; border:1px solid #ccc; border-right:2px solid #ccc; border-bottom:2px solid #ccc; font:13px Arial, Helvetica, sans-serif; }
-#commentform textarea { width:405px; padding: 8px; border:1px solid #ccc; border-right:2px solid #ccc; border-bottom:2px solid #ccc; font:13px Arial, Helvetica, sans-serif;  }
+#commentform input { width: 405px; padding: 7px 10px; margin: 0 5px 1px 0; border:1px solid #ccc; border-right:2px solid #ccc; border-bottom:2px solid #ccc; font:13px Arial, Helvetica, sans-serif; background-color: #ffffff;}
+#commentform textarea { width:405px; padding: 8px; border:1px solid #ccc; border-right:2px solid #ccc; border-bottom:2px solid #ccc; font:13px Arial, Helvetica, sans-serif;  background-color: #ffffff;}
+
 
 
 #commentform { margin: 5px 10px 0 0; height:100%; overflow:hidden; }
@@ -418,11 +437,11 @@ border-radius: 5px;}
 
 a.CSSclass {}
 
-.date { float:left; text-align:left; font-size:11px; padding:1px 0 0 15px; background:url(images/i_calendar.png) no-repeat 0 0; color:#777; text-transform:uppercase; }
+/*.date { float:left; text-align:left; font-size:11px; padding:1px 0 0 15px; background:url(images/i_calendar.png) no-repeat 0 0; color:#777; text-transform:uppercase; }*/
 
 #content p.tags { font-size:12px; padding:1px 0 7px 15px; background:url(images/i_tag.png) no-repeat 0 7px; color:#777; }
 
-#content .search404 { margin:4px 8px 0 0; padding:5px 0 0 0; width:298px; }
+#content .search404 { margin:4px 8px 0 0; padding:5px 0 0 0; }
 #content .category { float:left; width:48%; border-right:1px solid #ccc; }
 #content .archives { float:right; width:48%; }
 

@@ -1,26 +1,21 @@
 <?php get_header(); ?>
-<div id="content">
+<div class="row">
+<div id="content" class="col-md-8">
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
+	<div class="post-wrapper">
 	<!--post title-->
 	<h1 id="post-<?php the_ID(); ?>"><a href="<?php echo get_permalink() ?>" rel="bookmark" title="Permanent Link: <?php the_title(); ?>"><?php the_title(); ?></a></h1>
 
-     <div class="post-meta-top">
-	<div class="date">Posted at <?php the_time('F j, Y'); ?> // <?php the_category(', ') ?> </div>
+    <div class="post-meta-top">
+		<div class="date">Posted at <?php the_time('F j, Y'); ?> // <?php the_category(', ') ?> </div>
  	</div> <!-- post-meta-top #end -->
 
-
 	<?php if ( get_option( 'ptthemes_postcontent_full' )) { ?>
-
 					    <?php the_content('<br />Read the rest of this entry &raquo;'); ?>
-
 					<?php } else { ?>
-
 					    <?php the_excerpt(); ?>
-
 					<?php } ?>
-
      <!--Rateing-->
     <?php if(function_exists('the_ratings')) { the_ratings(); } ?>
     <!--Rateing end-->
@@ -30,11 +25,11 @@
 	<?php wp_link_pages('before<p><strong>Pages:</strong>&after=</p>&next_or_number=number'); ?>
 
 
- <?php the_tags('<p class="tags">Tags : ', ', ', '<br /> </p>'); ?>
+ 	<?php the_tags('<p class="tags">Tags : ', ', ', '<br /> </p>'); ?>
 
 	<!--Post Meta-->
 	<div class="post-bottom">
-	<h3>Share the Post</h3>
+	<h1>Share the Post</h3>
     <ul class="social">
     	<li class="i_facebook" ><a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink() ?>" target="_blank">Facebook</a></li>
         <li class="i_twitter" ><a href="http://twitter.com/home?status=<?php the_permalink(); ?>" target="_blank">Twitter </a></li>
@@ -89,7 +84,7 @@ wp_reset_postdata(); ?>
 
 	<!--include comments template-->
 	<?php comments_template(); ?>
-
+	</div>
 	<!--do not delete-->
 	<?php endwhile; else: ?>
 
@@ -104,5 +99,6 @@ wp_reset_postdata(); ?>
 
 <!--include sidebar-->
 <?php get_sidebar();?>
+</div>
 <!--include footer-->
 <?php get_footer(); ?>

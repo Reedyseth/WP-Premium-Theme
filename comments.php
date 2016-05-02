@@ -56,7 +56,7 @@
 
 <div id="respond">
 
-<h3>Leave Comment</h3>
+<h3>Leave a Comment</h3>
 
 <div class="cancel-comment-reply">
 	<?php cancel_comment_reply_link(); ?>
@@ -71,34 +71,35 @@
   <p>Logged in as <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="Log out of this account">Logout &raquo;</a></p>
   <?php else : ?>
   <p>
-    <input type="text" name="author" id="author" class="textarea" value="<?php echo $comment_author; ?>" size="28" tabindex="1" />
     <label for="author">
     <?php _e('Name <span class="indicate">*</span>'); ?>
     </label>
+    <input type="text" name="author" id="author" class="form-control" value="<?php echo $comment_author; ?>" size="28" tabindex="1" />
 
   </p>
   <p>
-    <input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="28" tabindex="2" class="textarea" />
     <label for="email">
     <?php _e('E-mail <span class="indicate">*</span>'); ?>
     </label>
+    <input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="28" tabindex="2" class="form-control" />
 
   </p>
   <p>
-    <input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="28" tabindex="3" class="textarea" />
     <label for="url">
     <?php _e('<acronym title="Uniform Resource Identifier">URI</acronym>'); ?>
     </label>
+
+    <input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="28" tabindex="3" class="form-control" />
   </p>
   <?php endif; ?>
   <p>
-    <label for="comment">Your Comment</label>
+    <label for="comment">Your Comment</label><br/>
 
-    <textarea name="comment" id="comment" cols="60" rows="10" tabindex="4" class="textarea"></textarea>
+    <textarea name="comment" id="comment" cols="60" rows="10" tabindex="4" class="form-control"></textarea>
   </p>
   <p>
     <?php // global $wp_subscribe_reloaded; if (isset($wp_subscribe_reloaded)){ $wp_subscribe_reloaded->stcr->subscribe_reloaded_show(); } ?>
-    <input name="submit" id="submit" type="submit" tabindex="5" value="<?php _e('Submit'); ?>" class="Cbutton" />
+    <input name="submit" id="submit" type="submit" tabindex="5" value="<?php _e('Submit'); ?>" class="btn btn-primary" />
     <input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
     <input type="hidden" name="redirect_to" value="<?php echo esc_html($_SERVER['REQUEST_URI']); ?>" />
   </p>

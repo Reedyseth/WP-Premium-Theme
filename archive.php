@@ -1,8 +1,9 @@
 <?php get_header(); ?>
-<div id="content">
+<div class="row">
+<div id="content" class="col-md-8">
 	<!--the loop-->
 	<?php if (have_posts()) : ?>
-
+	<div class="post-wrapper">
 	<h1>
 	<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
 	<?php /* If this is a category archive */ if (is_category()) { ?>
@@ -32,13 +33,15 @@
 	<!--do not delete-->
 	<?php } ?>
 	</h1>
+	</div>
 
 	<!--loop article begin-->
 	<?php while (have_posts()) : the_post(); ?>
+	<div class="post-wrapper">
 	<!--post title as a link-->
 		<div class="comm"><?php comments_popup_link ('0','1','%','CSSclass','0'); ?></div>
 
-	<h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h3>
+	<h3 class="post-title" id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h3>
 
 	<div class="post-meta-top">
 	<div class="date">Posted at <?php the_time('F j, Y'); ?> // <?php the_category(', ') ?> </div>
@@ -74,7 +77,7 @@
 
 	</div> <!-- post bottom #end -->
 
-
+	</div>
        <!--one post end-->
 	<?php endwhile; ?>
 
@@ -101,5 +104,6 @@
 </div>
 <!--include sidebar-->
 <?php get_sidebar();?>
+</div>
 <!--include footer-->
 <?php get_footer(); ?>

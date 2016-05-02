@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="row">
-<div id="content" class="col-md-8 col-md-offset-1">
+<div id="content" class="col-md-8">
 	<?php if (have_posts()) : ?>
 	<?php while (have_posts()) : the_post(); ?>
 
@@ -10,7 +10,7 @@
 		<div class="comm"><?php comments_popup_link ('0','1','%','CSSclass','0'); ?></div>
 
     <!--post title link-->
-	<h3 class="h1" id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h3>
+	<h3 class="h1 post-title" id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h3>
 
 
 	<div class="post-meta-top">
@@ -39,16 +39,16 @@
 
      <?php the_tags('<p class="tags">Tags : ', ', ', '<br /> </p>'); ?>
 
-	<div class="post-bottom">
-    <h3>Share the Post</h3>
-    <ul class="social">
-    	<li class="i_facebook" ><a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink() ?>" target="_blank">Facebook</a></li>
-        <li class="i_twitter" ><a href="http://twitter.com/home?status=<?php the_permalink(); ?>" target="_blank">Twitter </a></li>
-        <li class="i_gplus" ><a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" target="_blank">Google+</a></li>
-        <li class="i_linked" ><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=<?php the_permalink(); ?>&amp;title=<?php the_title(); ?>&amp;summary=&amp;source=" target="_blank">LinkedIn</a></li>
-    </ul> <!-- social bookmark section-->
+  	<div class="post-bottom">
+      <h1>Share the Post</h1>
+        <ul class="social">
+          <li class="i_facebook" ><a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink() ?>" target="_blank">Facebook</a></li>
+            <li class="i_twitter" ><a href="http://twitter.com/home?status=<?php the_permalink(); ?>" target="_blank">Twitter </a></li>
+            <li class="i_gplus" ><a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" target="_blank">Google+</a></li>
+            <li class="i_linked" ><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=<?php the_permalink(); ?>&amp;title=<?php the_title(); ?>&amp;summary=&amp;source=" target="_blank">LinkedIn</a></li>
+        </ul> <!-- social bookmark section-->
 
-	</div> <!-- post bottom #end -->
+  	</div> <!-- post bottom #end -->
 
   </div>
 
