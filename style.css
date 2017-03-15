@@ -23,6 +23,11 @@ body { font:14px 'Roboto','archivo_narrowregular','Open Sans';
 	letter-spacing: 0.6px;
 }
 body * { margin:0; padding:0; }
+/*
+img {
+   width: 100%;
+   height: auto;
+}*/
 
 hr { height:5px; margin:10px 0; border:none; }
 
@@ -62,7 +67,27 @@ img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 .alignright,  #content .alignright  { margin:5px 0 10px 15px;  padding:5px; float:right; border:1px solid #ccc; background:#fff;   }
 code { font-size:13px; }
 
-.button-cart {top:5px; right:0; height:26px; margin: 20px !important;border-width: 2px !important;background-color: #DDEDDB;border-color: #7CD612 !important; }
+.button-cart {
+	top: 5px;
+	right: 0;
+	height: 41px;
+	margin: 5px 20px 20px 20px !important;
+	border-width: 2px !important;
+	background-color: #DDEDDB;
+	border-color: #ADEC62 !important;
+	padding: 10px 30px !important;
+	text-transform: uppercase;
+	font-weight: bold !important;
+	color: #0A6916 !important;
+	background: rgba(232,250,208,1);
+	background: -moz-linear-gradient(top, rgba(232,250,208,1) 0%, rgba(173,227,107,1) 29%, rgba(139,204,59,1) 63%, rgba(116,207,12,1) 84%, rgba(143,219,51,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(232,250,208,1)), color-stop(29%, rgba(173,227,107,1)), color-stop(63%, rgba(139,204,59,1)), color-stop(84%, rgba(116,207,12,1)), color-stop(100%, rgba(143,219,51,1)));
+	background: -webkit-linear-gradient(top, rgba(232,250,208,1) 0%, rgba(173,227,107,1) 29%, rgba(139,204,59,1) 63%, rgba(116,207,12,1) 84%, rgba(143,219,51,1) 100%);
+	background: -o-linear-gradient(top, rgba(232,250,208,1) 0%, rgba(173,227,107,1) 29%, rgba(139,204,59,1) 63%, rgba(116,207,12,1) 84%, rgba(143,219,51,1) 100%);
+	background: -ms-linear-gradient(top, rgba(232,250,208,1) 0%, rgba(173,227,107,1) 29%, rgba(139,204,59,1) 63%, rgba(116,207,12,1) 84%, rgba(143,219,51,1) 100%);
+	background: linear-gradient(to bottom, rgba(232,250,208,1) 0%, rgba(173,227,107,1) 29%, rgba(139,204,59,1) 63%, rgba(116,207,12,1) 84%, rgba(143,219,51,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8fad0', endColorstr='#8fdb33', GradientType=0 );
+}
 
 /* table - information-table*/
 
@@ -167,6 +192,7 @@ Structure
 	-webkit-border-radius: 10px;
 	        border-radius: 10px;
 	padding: 20px 15px;
+	/*box-shadow: 0px 0px 20px -5px #CBFF98;*/
 }
 
 #container
@@ -183,6 +209,7 @@ Structure
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	width: 27%;
+	  border: 1px solid #4E4E4E;
 }
 
 #l_sidebar, #r_sidebar { width:auto;}
@@ -373,8 +400,8 @@ Content
 #content .commentmetadata { font-weight: normal; font-size:11px; }
 #commentform p { margin: 5px 0 5px 0; height:100%; overflow:hidden; }
 
-#commentform #submit { margin:0; float:left; width:100px; margin-left:120px;   font:bold 14px Arial, Helvetica, sans-serif; color:#fff; cursor:pointer;
-	background:#000; border:none; border-right:2px solid #ccc; border-bottom:2px solid #ccc; }
+/*#commentform #submit { margin:0; float:left; width:100px; margin-left:120px;   font:bold 14px Arial, Helvetica, sans-serif; color:#fff; cursor:pointer;
+	background:#000; border:none; border-right:2px solid #ccc; border-bottom:2px solid #ccc; }*/
 .indicate { color:#C00; font-size:11px; }
 
 .alt { margin: 0; padding: 10px; }
