@@ -138,7 +138,7 @@
                 <a href="<?php echo get_option('home'); ?>/">
                     <img src="<?php if ( get_option('ptthemes_logo_url') <> "" ) {
                         echo get_option('ptthemes_logo_url');
-                    } else { echo bloginfo('template_directory').'/images/logo.gif'; } ?>" alt="<?php bloginfo('name'); ?>"  /></a>
+                    } else { echo bloginfo('template_directory').'/images/logo.gif'; } ?>" alt="<?php bloginfo('name'); ?>" style="max-width: 329px;" /></a>
 
 
 
@@ -176,7 +176,7 @@
 
 </div>
 
-<div class="header-banner">
+<div class="header-banner col-xs-8 col-sm-8 col-md-8 col-lg-8">
 <!--    <script src="https://www.gstatic.com/xads/publisher_badge/contributor_badge.js" data-width="350" data-height="190" data-theme="light" data-pub-name="The Code" data-pub-id="ca-pub-4673344568091096"></script>-->
     <?php
         /*
@@ -189,15 +189,17 @@
         echo '<a href="'.$websharks[$imgr][1].'" target="_blank"><img src="https://behstant.com/blog/wp-content/uploads/2016/01/0'.$imgr.'.png" width="550" height="190" alt="'.$websharks[$imgr][2].'"/></a>';
         */
     ?>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- Leader_Header_Behstant -->
-    <ins class="adsbygoogle"
-         style="display:inline-block;width:728px;height:90px"
-         data-ad-client="ca-pub-4673344568091096"
-         data-ad-slot="5945116368"></ins>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    <div class="col-md-8 col-lg-8 hidden-xs hidden-sm">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	    <!-- Leader_Header_Behstant -->
+	    <ins class="adsbygoogle"
+	         style="display:inline-block;width:728px;height:90px"
+	         data-ad-client="ca-pub-4673344568091096"
+	         data-ad-slot="5945116368"></ins>
+	    <script>
+	    (adsbygoogle = window.adsbygoogle || []).push({});
+	    </script>
+    </div>
 </div>
 </div>
 

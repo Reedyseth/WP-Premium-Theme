@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 <!--page.php-->
 <div class="row">
-	<div id="content" class="col-md-8">
+
+	<div id="content" class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
 
 		<!--loop-->
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

@@ -57,14 +57,9 @@ Header
 **************************************/
 
 #header { background:url(02-black/headerbg_black.gif) repeat-x; }
-
 #header-in .title a { color:#fff; }
-
 #header-in .title a:hover { color:#FFF; }
-
 #header-in .description { color:#FFF; }
-
-
 
 /*************************************
 
@@ -73,15 +68,10 @@ Subscribe form
 **************************************/
 
 .subscribe { background:url(02-black/subscribebg_black.gif) bottom left no-repeat; }
-
 .subscribeform p { color:#fff; }
-
 .subscribeform .input { background:url(02-black/sinputbg.png) no-repeat; border:none; }
-
 .sbutton { background:url(02-black/b_subscribebg_black.png) no-repeat; border:none; color:#fff; }
-
 #content a { color: #1EA10F; }
-
 #content a:hover { color: #6C8E68; }
 
 
@@ -275,9 +265,9 @@ Footer
 
 **************************************/
 
-#footer { color:#787878; }
+#footer { color:#dadada; }
 
-.copyright a { color:#787878; }
+.copyright a { color:#dadada; }
 
 .copyright a:hover { color:#fff; }
 
@@ -310,13 +300,6 @@ ul.tabbernav li.tabberactive a:hover { color:#000; background:white; border-bott
 .tabberlive .tabbertab { border-top:0; background:#333; }
 
 
-
-
-
-
-
-
-
 /*------------------------------------------------------
 
  nav menu
@@ -326,17 +309,12 @@ ul.tabbernav li.tabberactive a:hover { color:#000; background:white; border-bott
 
 
 #navmenu-h ul li:hover li a, ul#navmenu-v li:hover li a,
-
 #navmenu-h ul li.iehover li a, ul#navmenu-v li.iehover li a
-
 {
-
 	border: 1px solid #857e7e;
-
 }
 
 #navmenu-h ul li:hover li a, ul#navmenu-v li:hover li a,
-
 #navmenu-h ul li.iehover li a, ul#navmenu-v li.iehover li a {
 
 }
@@ -344,246 +322,126 @@ ul.tabbernav li.tabberactive a:hover { color:#000; background:white; border-bott
 /* Top level */
 
 #navmenu-h ul li a, ul#navmenu-v li a,
-
-
-
 /* 2nd Menu */
 
 #navmenu-h ul li:hover li a, ul#navmenu-v li:hover li a,
-
 #navmenu-h ul li.iehover li a, ul#navmenu-v li.iehover li a,
-
-
-
  /* 3rd Menu */
 
 #navmenu-h ul li:hover li:hover li a, ul#navmenu-v li:hover li:hover li a,
-
 #navmenu-h ul li.iehover li.iehover li a, ul#navmenu-v li.iehover li.iehover li a,
-
-
-
 /* 4rd Menu */
 
 #navmenu-h ul li:hover li:hover li:hover li a, ul#navmenu-v li:hover li:hover li:hover li a,
-
 #navmenu-h ul li.iehover li.iehover li.iehover li a, ul#navmenu-v li.iehover li.iehover li.iehover li a,
-
-
-
 /* 5th Menu */
 
 #navmenu-h ul li:hover li:hover li:hover li:hover li a, ul#navmenu-v li:hover li:hover li:hover li:hover li a,
-
 #navmenu-h ul li.iehover li.iehover li.iehover li.iehover li a, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li a
-
 {
 
 	background:#444;
-
 	color: #CBE7AF;
-
 }
 
-
-
 /* Root Menu Hover Persistence */
-
 #navmenu-h ul a:hover,
-
 #navmenu-h ul li:hover a,
-
 #navmenu-h ul li.iehover a,
-
 #navmenu-h ul li:hover a:hover,
-
 { color:#333; background:url(02-black/nav-active_black.gif) top right no-repeat; }
-
-
-
 /* Remembers the parent page of the current page ------------------------------------- */
-
-
-
 #navmenu-h li.current_page_ancestor a,
-
 #navmenu-h li.current_page_ancestor a:hover,
-
 #navmenu-h li.current_page_ancestor ul li.current_page_ancestor a,
-
 #navmenu-h li.current_page_ancestor ul li.current_page_ancestor a:hover,
-
 #navmenu-h li.current_page_ancestor ul li.current_page_ancestor li.current_page_item a,
-
 #navmenu-h li.current_page_ancestor ul li.current_page_ancestor li.current_page_item a:hover,
-
 #navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a,
-
 #navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a:hover,
-
 #navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a,
-
 #navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a:hover,
-
 #navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a,
-
 #navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a:hover,
-
-
-
-
-
 /* IE Specific ------------------------------------- */
-
-
 
 /* 2nd Menu Hover Persistence */
 
 #navmenu-h ul li:hover li a:hover, ul#navmenu-v li:hover li a:hover,
-
 #navmenu-h ul li:hover li:hover a, ul#navmenu-v li:hover li:hover a,
-
 #navmenu-h ul li.iehover li a:hover, ul#navmenu-v li.iehover li a:hover,
-
 #navmenu-h ul li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover a,
-
-
-
 /* 3rd Menu Hover Persistence */
-
 #navmenu-h ul li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li a:hover,
-
 #navmenu-h ul li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover a,
-
 #navmenu-h ul li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li a:hover,
-
 #navmenu-h ul li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover a,
-
-
-
 /* 4rd Menu Hover Persistence */
-
 #navmenu-h ul li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li a:hover,
-
 #navmenu-h ul li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover a,
-
 #navmenu-h ul li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li a:hover,
-
 #navmenu-h ul li.iehover li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover a,
-
-
-
 /* 5th Menu Hover */
-
 #navmenu-h ul li:hover li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover li:hover a,
-
 #navmenu-h ul li.iehover li.iehover li.iehover li.iehover li.iehover a,  ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li.iehover a,
-
 #navmenu-h ul li:hover li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li:hover li a:hover,
-
 #navmenu-h ul li.iehover li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li a:hover,
 
+#navmenu-h li:hover, #navmenu-h li.iehover,
+#navmenu-h li.current_page_item,
+#navmenu-h li.iehover,
+#navmenu-h li.current_page_ancestor {
+ background:url(02-black/nav-active_black.gif) top left no-repeat; color:#000;  height:26px;
+}
 
-
-
-
-#navmenu-h li:hover, #navmenu-h li.iehover,#navmenu-h li.current_page_item,#navmenu-h li.iehover,#navmenu-h li.current_page_ancestor { background:url(02-black/nav-active_black.gif) top left no-repeat; color:#000;  height:26px; }
-
-#navmenu-h li:hover a, #navmenu-h li.iehover a, #navmenu-h li.current_page_item a, #navmenu-h li.current_page_ancestor a, #navmenu-h li.current_page_ancestor a:hover { color:#333; background:url(02-black/nav-active_black.gif) top right no-repeat; }
+#navmenu-h li:hover a,
+#navmenu-h li.iehover a,
+ #navmenu-h li.current_page_item a,
+ #navmenu-h li.current_page_ancestor a,
+ #navmenu-h li.current_page_ancestor a:hover {
+ 	color:#333; background:url(02-black/nav-active_black.gif) top right no-repeat;
+ 	 }
 
 #navmenu-h li a { color:#333; background:url(02-black/nav-active_black.gif) top right no-repeat; }
-
 #navmenu-h li a:hover { color: #437C0A; background:url(02-black/nav-active_black.gif) top right no-repeat; }
 
+#navmenu-h li ul li ul li.current_page_parent a,
+#navmenu-h li ul li.current_page_ancestor a { background-position:-5px 0 !important; }
 
-
-#navmenu-h li ul li ul li.current_page_parent a,#navmenu-h li ul li.current_page_ancestor a { background-position:-5px 0 !important; }
-
-#navmenu-h li ul li ul li.current_page_parent a:hover,#navmenu-h li ul li.current_page_ancestor a:hover {  background-position:-5px 0 !important;  }
-
-
+#navmenu-h li ul li ul li.current_page_parent a:hover,
+#navmenu-h li ul li.current_page_ancestor a:hover {  background-position:-5px 0 !important;  }
 
 #navmenu-h li ul li.current_page_item a { background:#fff; color:#333; }
 
-
-
-
-
-
-
-
-
-
-
 /* IE verticle Specific ------------------------------------- */
 
-
-
 /* 2nd Menu Hover Persistence */
-
 #navmenu-h ul li:hover li a:hover, ul#navmenu-v li:hover li a:hover,
-
 #navmenu-h ul li:hover li:hover a, ul#navmenu-v li:hover li:hover a,
-
 #navmenu-h ul li.iehover li a:hover, ul#navmenu-v li.iehover li a:hover,
-
 #navmenu-h ul li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover a,
-
-
-
 /* 3rd Menu Hover Persistence */
-
 #navmenu-h ul li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li a:hover,
-
 #navmenu-h ul li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover a,
-
 #navmenu-h ul li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li a:hover,
-
 #navmenu-h ul li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover a,
-
-
-
 /* 4rd Menu Hover Persistence */
-
 #navmenu-h ul li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li a:hover,
-
 #navmenu-h ul li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover a,
-
 #navmenu-h ul li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li a:hover,
-
 #navmenu-h ul li.iehover li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover a,
-
-
-
 /* 5th Menu Hover */
 
 #navmenu-h ul li:hover li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover li:hover a,
-
 #navmenu-h ul li.iehover li.iehover li.iehover li.iehover li.iehover a,  ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li.iehover a,
-
 #navmenu-h ul li:hover li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li:hover li a:hover,
-
 #navmenu-h ul li.iehover li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li a:hover
-
 {
-
-background:#fff url(02-black/none.gif) no-repeat;
-
-color:#333;
-
+	background:#fff url(02-black/none.gif) no-repeat;
+	color:#333;
 }
-
-
-
 /*Page navigatoin 2 ----------------------------- */
-
 #content .wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:active { color:#333; background-color:#e7e7e7; }
-
 #content .wp-pagenavi a:hover { color:#fff; background-color:#666; }
-
 #content .wp-pagenavi strong.on { color:#fff; background:#000; }
-
 #content .wp-pagenavi span.extend { color:#fff; background-color:#314332; }
-
-
-

@@ -1,4 +1,4 @@
-<div id="sidebar" class="col-md-3" >
+<div id="sidebar" class="col-xs-3 col-sm-3 col-md-3 col-lg-3" >
 
 <?php dynamic_sidebar(1);  ?>
 

@@ -18,16 +18,16 @@ Description:WP Premium theme by Templatic and Edited by Reedyseth.
 @import url("fonts/bebas_neue/bebas.css");
 @import url("fonts/archivonarrow-regular.css");
 
-body { font:14px 'Roboto','archivo_narrowregular','Open Sans';
+body { font:1.6em 'Roboto','archivo_narrowregular','Open Sans';
 	margin:0 0 0 0;
-	letter-spacing: 0.6px;
+	letter-spacing: .078em;
 }
 body * { margin:0; padding:0; }
-/*
+
 img {
    width: 100%;
    height: auto;
-}*/
+}
 
 hr { height:5px; margin:10px 0; border:none; }
 
@@ -181,8 +181,8 @@ Structure
 {
 	display: block;
 	overflow: hidden;
-	margin: 10px 0 10px 60px;
-	width: 62%;
+	margin: 10px 0 10px -3px;
+		width: 72%;
 }
 
 .post-wrapper
@@ -209,7 +209,8 @@ Structure
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	width: 27%;
-	  border: 1px solid #4E4E4E;
+	border: 1px solid #4E4E4E;
+	font-size: .9em;
 }
 
 #l_sidebar, #r_sidebar { width:auto;}
@@ -228,15 +229,15 @@ a:hover { text-decoration:underline; }
 /*************************************
 Headings
 **************************************/
-h1 { font-size:26px; font-weight:normal; font-family: "bebas_neueregular", Times, serif; margin:0; padding:0; }
+h1 { font-size:2.4em; font-weight:normal; font-family: "bebas_neueregular", Times, serif; margin:0; padding:0; }
 h3.h1 {  /*make homepage h3's for the first 2 stories look like H1 */ font-size:35px; text-decoration:none; }
 h1 a, h3 a, h1 a:visited, h3 a:visited { text-decoration:none; }
 h1 a:hover, h3 a:hover { text-decoration:none; }
-h2 { font-size:24px; font-family: "bebas_neueregular", Times, serif; font-weight:normal; padding:10px 0; line-height:150%; margin:0; }
+h2 { font-size:1.8em; font-family: "bebas_neueregular", Times, serif; font-weight:normal; padding:10px 0; line-height:150%; margin:0; }
 h2 a, h2 a:visited { color:#666; text-decoration:underline; }
 h2 a:hover { text-decoration:none; }
 
-.post-title { font-size:35px  !important; font-weight:normal !important; font-family: "bebas_neueregular", Times, serif !important; }
+.post-title { font-size:2.5em  !important; font-weight:normal !important; font-family: "bebas_neueregular", Times, serif !important; }
 
 #sidebar h2 { margin:0 0 5px 0; padding:0 0 5px 0; font:bold 14px "bebas_neueregular",Arial, Helvetica, sans-serif;  }
 #sidebar .popular h2 { font:bold 14px "bebas_neueregular",Arial, Helvetica, sans-serif; }
@@ -332,9 +333,9 @@ Content
 **************************************/
 
 #content ul { margin:0; padding:0; font:14px Arial, Helvetica, sans-serif; }
-#content li { margin:0 0 5px 0; padding:0 0 0; background:url(images/bullet4.png) no-repeat center; background-position:0 2px; }
+#content li { margin:0 0 5px 0; padding:0 0 0; no-repeat center; background-position:0 2px; }
 #content ul li ul { margin:8px 0 5px 0; padding:0; }
-#content li ul li { padding:0; background:url(images/bullet4.png) no-repeat 20px left; }
+#content li ul li { padding:0; no-repeat 20px left; }
 #content ol { list-style-type:decimal; line-height:18px; margin:0; font-size:14px; padding:0 0 10px 0; }
 #content ol li ol { margin:8px 0 5px 18px; padding:0 0 0 0; }
 #content ol li { margin:0 0 5px 0; padding:0; background:none; }
@@ -384,8 +385,9 @@ Content
 
 #content .commentlist img.avatar  { width:40px; height:40px; background: #FFFFFF; float: right; background:#fff url(images/gravtar.png) no-repeat center; border: 1px solid #EEEEEE; padding:5px; margin-left:10px; }
 
-#commentform input { width: 405px; padding: 7px 10px; margin: 0 5px 1px 0; border:1px solid #ccc; border-right:2px solid #ccc; border-bottom:2px solid #ccc; font:13px Arial, Helvetica, sans-serif; background-color: #ffffff;}
-#commentform textarea { width:405px; padding: 8px; border:1px solid #ccc; border-right:2px solid #ccc; border-bottom:2px solid #ccc; font:13px Arial, Helvetica, sans-serif;  background-color: #ffffff;}
+#commentform input { width: 405px; padding: 7px 10px; margin: 0 5px 1px 0; border:1px solid #ccc; border-right:2px solid #ccc; border-bottom:2px solid #ccc; font:13px Arial, Helvetica, sans-serif; background-color: #ffffff; color: #2f2f2f; font-weight: bold;}
+#commentform input[type=submit] { float: right; width: 145px;}
+#commentform textarea { padding: 8px; border:1px solid #ccc; border-right:2px solid #ccc; border-bottom:2px solid #ccc; font:13px Arial, Helvetica, sans-serif;  background-color: #ffffff;}
 
 
 

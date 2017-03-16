@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="row">
-<div id="content" class="col-md-8">
+<div id="content" class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<div class="post-wrapper">
@@ -41,7 +41,7 @@
 	</div> <!-- post bottom #end -->
 
 	<!-- Google AdSense -->
-	<p>
+	<p class="text-center">
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- LeaderGreen_728x90 -->
 		<ins class="adsbygoogle"
