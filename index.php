@@ -1,7 +1,11 @@
 <?php get_header(); ?>
 <div class="row">
 <div id="content" class="col-md-8">
-	<?php if (have_posts()) : ?>
+	<?php if (have_posts()) :
+
+	$post_count = 1;
+
+	?>
 	<?php while (have_posts()) : the_post(); ?>
 
   <div class="post-wrapper">
@@ -52,7 +56,40 @@
 
   </div>
 
-	<?php endwhile; ?>
+	<?php
+
+	if( $post_count%2 == 0)
+	{
+	?>	<div class="post-wrapper" style="text-align: center; margin-bottom: 40px;">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-format="fluid"
+				     data-ad-layout-key="-ej+6k-23-cl+uz"
+				     data-ad-client="ca-pub-4673344568091096"
+				     data-ad-slot="8898927846"></ins>
+				<script>
+				     (adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+		</div>
+	<?php
+	}
+	$post_count++;
+
+	endwhile; ?>
+
+	<div class="post-wrapper" style="text-align: center; margin-bottom: 40px;">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-format="fluid"
+				     data-ad-layout-key="-en+6g-15-c4+qd"
+				     data-ad-client="ca-pub-4673344568091096"
+				     data-ad-slot="4390860717"></ins>
+				<script>
+				     (adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+		</div>
 
     <!-- Prev/Next page navigation -->
     <div class="pagenavi">
